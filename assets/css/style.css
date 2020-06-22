@@ -1,0 +1,9 @@
+.navbar{
+    background-color: black ;
+    opacity: 50%;
+}
+#main-section{
+    background: url(../img/bg-home.jpg);
+    margin: 0;
+    padding: 0;
+}
