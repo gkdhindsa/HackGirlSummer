@@ -7,12 +7,13 @@
     <!--Title-->
     <title>Space Science Website</title>
 
-      <!--Font Awesome-->
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-
-
+    <!--Font Awesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!--Google Fonts Link-->
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Roboto&display=swap" rel="stylesheet">
     <!--Bootstrap Link-->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
@@ -24,131 +25,136 @@
 <body>
     <!--Navbar-->
     <section id="top">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
-    
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Projects</a>
-                    </li>
-                    <li>
-                        <a class="nav-link " href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a class="nav-link " href="#">Contact</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container navbar-container">
+                <a class="navbar-brand" href="#">
+                    <img src="assets/img/logo.png">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active px-3">
+                            <a class="nav-link" href="index.html">HOME </a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link " href="./projects.html">PROJECTS</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link " href="./blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link " href="./contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+
         </nav>
         <!--Main Section-->
-            <div class="container">
-                <div class="row">
-                    <div class="col">
-                        <img src="assets/img/satellite.png">
-                    </div>
-                    <div class="col">
-                        <h1>
-                            SOYUZ TMA-M
-                        </h1>
-                        <p>
-                            SPACECRAFT 
-                        </p>
-                        <button>
-                            Read more
-                        </button>
-                    </div>
+        <div class="container mt-5">
+            <div class="row">
+                <div class="col-sm-6 satellite text-center">
+                    <img src="assets/img/satellite.png" class="img-fluid">
                 </div>
-                <div class="row">
-                    Featured Projects
-                </div>
-                <div class="row"> 
-                    <div class="col-lg-3">
-                        <img src="assets/img/project-image1.jpg">
-                    </div>
-                    <div class="col-lg-3">
-                        <img src="assets/img/project-image2.jpg">
-                    </div>
-                    <div class="col-lg-3">
-                        <img src="assets/img/project-image3.jpg">
-                    </div>
-                    <div class="col-lg-3">
-                        <img src="assets/img/project-image4.jpg">
-                    </div>
+                <div class="col-sm-6 text-center py-5 my-5" style="vertical-align: middle;">
+                    <h1>
+                        SOYUZ TMA-M
+                    </h1>
+                    <p>
+                        SPACECRAFT
+                    </p>
+                    <button>
+                        READ MORE
+                    </button>
                 </div>
             </div>
+        </div>
+        <div class="container">
+            <div class="featured ">
+                <h3>FEATURED PROJECTS</h3>
+                <a href="#"><img src="assets/img/project-image1.jpg"></a>
+                <a href="#"><img src="assets/img/project-image2.jpg"></a>
+                <a href="#"><img src="assets/img/project-image3.jpg"></a>
+                <a href="#"><img src="assets/img/project-image4.jpg"></a>
+
+
+            </div>
+        </div>
+
     </section>
 
-    
+
     <!--Mission Section-->
     <section id="our-mission">
-        <div class="container">
-            <h1>
+        <div class="container py-5">
+            <h2 class="text-center">
                 OUR MISSION
-            </h1>
-            <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Elit ut aliquam purus sit amet luctus venenatis. In pellentesque massa placerat duis. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. Enim lobortis scelerisque fermentum dui faucibus in. Vel facilisis volutpat est velit egestas dui. Scelerisque fermentum dui faucibus in ornare quam viverra. Morbi tristique senectus et netus et malesuada fames. Sed faucibus turpis in eu mi. Et ligula ullamcorper malesuada proin. Rhoncus est pellentesque elit ullamcorper dignissim. In hac habitasse platea dictumst vestibulum rhoncus est. Id faucibus nisl tincidunt eget nullam. Quam quisque id diam vel quam elementum pulvinar. Feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Vivamus at augue eget arcu dictum. Massa massa ultricies mi quis hendrerit dolor magna eget. Sit amet luctus venenatis lectus magna fringilla. Interdum posuere lorem ipsum dolor sit. Fringilla urna porttitor rhoncus dolor.
+            </h2>
+            <p class="text-center">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Elit ut aliquam purus sit amet luctus venenatis. In pellentesque massa placerat
+                duis. Fringilla est ullamcorper eget nulla facilisi etiam dignissim diam quis. Enim lobortis scelerisque
+                fermentum dui faucibus in. Vel facilisis volutpat est velit egestas dui. Scelerisque fermentum dui
+                faucibus in ornare quam viverra. Morbi tristique senectus et netus et malesuada fames. Sed faucibus
             </p>
         </div>
     </section>
 
     <!--Features video and articles-->
-    <section id="featured">
-        <div class="container">
+    <section id="featured-video">
+        <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6">
-                    <h1>
+                    <h2 class="mb-5">
                         FEATURED VIDEO
-                    </h1>
-                    <!--embed a video here-->
+                    </h2>
+                    <img src="assets/img/mars-rover.jpg">
                 </div>
                 <div class="col-lg-6">
-                    <h1>
+                    <h2 class="mb-5">
                         LATEST BLOGS
-                    </h1>
-                    <div class="row">
-                          <div class="col-3">
+                    </h2>
+                    <div class="row my-3">
+                        <div class="col-3">
                             <img src="assets/img/finding-planet.jpg">
-                          </div>  
-                          <div class="col-9">
-                            <h2>
+                        </div>
+                        <div class="col-9">
+                            <h3>
                                 FINDING PLANET X-123
-                            </h2>
+                            </h3>
                             <p>
                                 June 23, 2045
                             </p>
-                            <button>
+                            <button class="float-right btn-purple">
                                 READ MORE
                             </button>
-                          </div>
+                        </div>
                     </div>
-                    <div class="row">
-                           <div class="col-3">
+                    <hr>
+                    <div class="row my-3">
+                        <div class="col-3">
                             <img src="assets/img/new-satellitedish.jpg">
-                          </div>  
-                          <div class="col-9">
-                            <h2>
+                        </div>
+                        <div class="col-9">
+                            <h3>
                                 NEW SATELLITE DISH
-                            </h2>
+                            </h3>
                             <p>
                                 June 21, 2045
                             </p>
-                            <button>
+                            <button class="float-right btn-purple">
                                 READ MORE
                             </button>
-                          </div> 
+                        </div>
                     </div>
                 </div>
             </div>
@@ -159,13 +165,16 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-6">
-                    Follow Our Missions On
+                    <h2>
+                        Follow Our Missions On
+                    </h2>
+
                 </div>
                 <div class="col-lg-6">
-                    <i class="fab fa-facebook-f fa-2x"></i>
-                    <i class="fab fa-twitter fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
-                    <i class="fas fa-envelope fa-2x"></i>
+                    <i class="fab fa-facebook-f fa-2x mx-4"></i>
+                    <i class="fab fa-twitter fa-2x mx-4"></i>
+                    <i class="fab fa-instagram fa-2x mx-4"></i>
+                    <i class="fas fa-envelope fa-2x mx-4"></i>
                 </div>
             </div>
         </div>
