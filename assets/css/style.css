@@ -14,6 +14,7 @@ body{
 }
 p{
     font-size: 1.2em;
+    line-height: normal;
 }
 hr{
     outline: 1pt solid grey;
@@ -165,4 +166,21 @@ h1{
     padding: 2% 0%;
     color: black;
     text-align: center;
+    font-size: 0.5em;
+}
+/*About Us Page*/
+#about-main{
+    background: url("../img/bg-about.jpg") no-repeat center top;
+}
+/*Template*/
+#template{
+    background-color: #620031 ;
+}
+
+#community{
+    background-color: black;
+}
+
+#template-details{
+    background-color: #3C0F38;
 }
