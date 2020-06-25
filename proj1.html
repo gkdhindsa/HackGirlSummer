@@ -21,64 +21,89 @@
 <body>
     <!--Navbar-->
     <section id="top">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
-    
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Projects</a>
-                    </li>
-                    <li>
-                        <a class="nav-link " href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a class="nav-link " href="#">Contact</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container navbar-container">
+                <a class="navbar-brand " href="#">
+                    <img src="assets/img/logo.png" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-fill">
+                        <li class="nav-item active px-3">
+                            <a class="nav-link" href="index.html">HOME </a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="./projects.html" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                              PROJECTS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                              <a class="nav-link dropdown-item" href="./proj1.html">PROJ1</a>
+                            </div>
+                          </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link " href="./blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link " href="./contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+
         </nav>
     </section>
     <section id="proj-1">
-        <img src="">
-        <h2>THIS IS JUST A PLACE HOLDER, SO YOU CAN SEE WHAT THE SITE WOULD LOOK LIKE.</h2>
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, expedita possimus repellendus architecto dolores iure corporis harum id natus rerum quam odit nulla atque. Aliquam nobis modi incidunt ad eos?
-        </p>
-        <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora excepturi quibusdam placeat blanditiis enim illo minima facilis inventore, maxime quos nisi soluta perferendis dolores aperiam debitis omnis deleniti possimus qui!
-        </p>
+        <div class="container pb-5">
+            <div class="text-center">
+                <h2 class="py-5">PROJ 1</h2>
+            <img class="img-fluid" src="assets/img/moon-landing.jpg">
+            
+                <h3 class="py-5">THIS IS JUST A PLACE HOLDER.</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, expedita possimus repellendus architecto dolores iure corporis harum id natus rerum quam odit nulla atque. Aliquam nobis modi incidunt ad eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugiat earum cupiditate maxime sed doloremque eum neque tenetur. Ea adipisci ad unde, repudiandae dolorum culpa eaque tenetur sapiente deleniti nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius maxime fuga, molestias quaerat eaque sit aliquam mollitia, dicta deserunt assumenda. Ducimus mollitia molestiae accusantium enim cumque illum eos nesciunt!
+                </p>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora excepturi quibusdam placeat blanditiis enim illo minima facilis inventore, maxime quos nisi soluta perferendis dolores aperiam debitis omnis deleniti possimus qui!                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda, expedita possimus repellendus architecto dolores iure corporis harum id natus rerum quam odit nulla atque. Aliquam nobis modi incidunt ad eos? Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit fugiat earum cupiditate maxime sed doloremque eum neque tenetur. Ea adipisci ad unde, repudiandae dolorum culpa eaque tenetur sapiente deleniti nostrum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, eius maxime fuga, molestias quaerat eaque sit aliquam mollitia, dicta deserunt assumenda. Ducimus mollitia molestiae accusantium enim cumque illum eos nesciunt!
+
+                </p>
+        
+            </div>
+    
+        </div>
     </section>
     <section id="sm-icons">
-        <div class="container">
+        <div class="container my-5">
             <div class="row">
                 <div class="col-lg-6">
-                    Follow Our Missions On
+                    <h5>
+                        FOLLOW OUR MISSIONS ON
+                    </h5>
+
                 </div>
                 <div class="col-lg-6">
-                    <i class="fab fa-facebook-f fa-2x"></i>
-                    <i class="fab fa-twitter fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
-                    <i class="fas fa-envelope fa-2x"></i>
+                    <i class="fab fa-facebook-f fa-2x mx-4"></i>
+                    <i class="fab fa-twitter fa-2x mx-4"></i>
+                    <i class="fab fa-instagram fa-2x mx-4"></i>
+                    <i class="fas fa-envelope fa-2x mx-4"></i>
                 </div>
             </div>
         </div>
     </section>
     <section id="footer">
-        <p>© 2023 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</p>
+        <div class="container my-5">
+            <p>© 2023 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</p>
+        </div>
     </section>
+
     
     <!--Scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

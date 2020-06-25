@@ -13,7 +13,7 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 p{
-    font-size: 1.2em;
+    font-size: 1em;
     line-height: normal;
 }
 hr{
@@ -41,6 +41,7 @@ h1, h2, h3, h5{
 }
 h3{
     font-size: 1.5em;
+    color: grey;
 }
 button{
     background-color: black;
@@ -64,11 +65,19 @@ h1{
 .navbar{
     background-color: rgb(0,0,0, 0.5) ;
     padding: 0;
+    margin: 0;
+}
+
+.navbar-collapse{
+   
+    justify-content: center;
+    
 }
 .nav-link
 {
     color: white;
     font-size: 1.1em;
+    height: 100%;
 }
 .navbar-brand{
     padding: 0;
@@ -77,6 +86,18 @@ h1{
     background: url(../img/bg-home.jpg);
     margin: 0;
     padding: 0;
+}
+.dropdown-menu{
+    background-color: rgb(0,0,0, 0.5) ;
+    border-radius: 0%;
+}
+
+.dropdown-item:hover{
+    background-color: rgb(0,0,0, 0);
+    color: white
+}
+.nav-link:hover{
+    background-color: #630031;
 }
 
 /*main section index page*/
@@ -183,4 +204,36 @@ h1{
 
 #template-details{
     background-color: #3C0F38;
+}
+
+/*Projects Page*/
+#projects{
+    background-color: black;
+}
+
+/*Proj 1*/
+#proj-1{
+    background-color: black;
+}
+
+/*Blog*/
+#blog{
+    background-color: black;
+}
+
+h4{
+    font-family: 'audiowide-regular-webfont';
+    font-size: 1.7em;
+}
+
+/*Contact*/
+#contacts{
+    background-color: black;
+}
+.input-field{
+    width: 420px;
+    max-width: 90%;
+    border-radius: 0%;
+    border: none;
+    padding: 0.5em 1em;
 }

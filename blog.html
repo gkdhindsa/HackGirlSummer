@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!--Title-->
     <title>Space Science Website</title>
 
-      <!--Font Awesome-->
-  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
-  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+    <!--Font Awesome-->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 
 
     <!--Bootstrap Link-->
@@ -18,134 +19,173 @@
     <!--CSS Link-->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
+
 <body>
     <!--Navbar-->
     <section id="top">
-        <nav class="navbar navbar-expand-lg">
-            <a class="navbar-brand" href="#">
-    
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-    
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link " href="#">Projects</a>
-                    </li>
-                    <li>
-                        <a class="nav-link " href="#">Blog</a>
-                    </li>
-                    <li>
-                        <a class="nav-link " href="#">Contact</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg ">
+            <div class="container navbar-container">
+                <a class="navbar-brand " href="#">
+                    <img  src="assets/img/logo.png" class="img-fluid">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav nav-fill">
+                        <li class="nav-item active px-3">
+                            <a class="nav-link" href="index.html">HOME </a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="./about.html">ABOUT</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="./projects.html" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                PROJECTS
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="nav-link dropdown-item" href="./proj1.html">PROJ1</a>
+                            </div>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link " href="./blog.html">BLOG</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link " href="./contact.html">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
             </div>
+
         </nav>
     </section>
     <section id="blog">
-        <div class="container">
-            <h1>BLOG</h1>
+        <div class="container pb-5">
+            <h2 class="py-5 text-center"> BLOG</h2>
             <div class="row">
                 <div class="col-lg-7">
-                    <div>
-                        <img src="">
-                        <h2>
-                            THIS IS JUST A PLACEHOLDER.
-                        </h2>
+                    <div class=" text-center text-lg-left">
+                        <img src="assets/img/astronaut.jpg" class="img-fluid">
+                        <div class="my-5">
+                            <h3>
+                                THIS IS JUST A PLACEHOLDER.
+                            </h3>
+                            <p>
+                                FEBRUARY 6, 2045
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere, illo nisi alias magni
+                                id, quas blanditiis pariatur omnis autem iste vel numquam, inventore ut officiis enim?
+                                Excepturi, cumque nisi?
+                            </p>
+                            <button class="btn-purple">
+                                READ MORE
+                            </button>
+    
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="my-5 text-center text-lg-left">
+                        <img src="assets/img/satellite-dish.jpg" class="img-fluid">
+                        <div class="my-5">
+                            <h3>
+                                THIS IS JUST A PLACEHOLDER.
+                            </h3>
+                            <p>
+                                FEBRUARY 3, 2045
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere, illo nisi alias magni
+                                id, quas blanditiis pariatur omnis autem iste vel numquam, inventore ut officiis enim?
+                                Excepturi, cumque nisi?
+                            </p>
+                            <button class="btn-purple">
+                                READ MORE
+                            </button>
+    
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 px-5">
+                    <div class="text-center text-lg-left my-5 mt-lg-0">
+                        <h4>
+                            FEATURED POST
+                        </h4>
+                        <img src="assets/img/moon-satellite.jpg" class="img-fluid">
+                        <h3>
+                            SOYUZ TMA-M
+                        </h3>
                         <p>
                             FEBRUARY 6, 2045
                         </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere, illo nisi alias magni id, quas blanditiis pariatur omnis autem iste vel numquam, inventore ut officiis enim? Excepturi, cumque nisi?
-                        </p>
-                        <button>
-                            READ MORE
-                        </button>
                     </div>
                     <hr>
-                    <div>
-                        <img src="">
-                        <h2>
-                            THIS IS JUST A PLACEHOLDER.
-                        </h2>
-                        <p>
-                            FEBRUARY 3, 2045
-                        </p>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam facere, illo nisi alias magni id, quas blanditiis pariatur omnis autem iste vel numquam, inventore ut officiis enim? Excepturi, cumque nisi?
-                        </p>
-                        <button>
-                            READ MORE
-                        </button>
+                    <div class="my-5 text-center text-lg-left">
+                        <h4>
+                            RECENT POSTS
+                        </h4>
+                        <div class="row text-center text-lg-left my-5">
+                            <div class="col-lg-3">
+                                <img class="img-fluid" src="assets/img/alien-life.jpg">
+                            </div>
+                            <div class="col-lg-9">
+                                <h3>
+                                    ALIEN LIFE
+                                </h3>
+                                <p>
+                                    FEBRUARY 3, 2013
+                                </p>
+                            </div>
+                        </div>
+                        <div class="row text-center text-lg-left my-5">
+                            <div class="col-lg-3">
+                                <img class="img-fluid" src="assets/img/galaxy.jpg">
+                            </div>
+                            <div class="col-lg-9 ">
+                                <h3>
+                                    ALIEN LIFE
+                                </h3>
+                                <p>
+                                    FEBRUARY 3, 2013
+                                </p>
+                            </div>
+                        </div>
+
                     </div>
                 </div>
-                <div class="col-lg-5 ">
-                   <div>
-                       <h1>
-                           FEATURED POST
-                       </h1>
-                       <img src="">
-                       <h2>
-                           SOYUZ TMA-M
-                       </h2>
-                       <p>
-                           FEBRUARY 6, 2045
-                       </p>
-                   </div> 
-                   <hr>
-                   <div>
-                       <h1>
-                           RECENT POSTS
-                       </h1>
-                       <img src="">
-                       <h2>
-                           ALIEN LIFE
-                       </h2>
-                       <p>
-                           FEBRUARY 3, 2013
-                       </p>
-                       <img src="">
-                       <h2>
-                           THE GALAXY
-                       </h2>
-                       <p>
-                           FEBRUARY 1, 2045
-                       </p>
-                       
-                   </div>
-                </div>
             </div>
-            
+
         </div>
     </section>
     <section id="sm-icons">
-        <div class="container">
+        <div class="container my-5">
             <div class="row">
                 <div class="col-lg-6">
-                    Follow Our Missions On
+                    <h5>
+                        FOLLOW OUR MISSIONS ON
+                    </h5>
+
                 </div>
                 <div class="col-lg-6">
-                    <i class="fab fa-facebook-f fa-2x"></i>
-                    <i class="fab fa-twitter fa-2x"></i>
-                    <i class="fab fa-instagram fa-2x"></i>
-                    <i class="fas fa-envelope fa-2x"></i>
+                    <i class="fab fa-facebook-f fa-2x mx-4"></i>
+                    <i class="fab fa-twitter fa-2x mx-4"></i>
+                    <i class="fab fa-instagram fa-2x mx-4"></i>
+                    <i class="fas fa-envelope fa-2x mx-4"></i>
                 </div>
             </div>
         </div>
     </section>
     <section id="footer">
-        <p>© 2023 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</p>
+        <div class="container my-5">
+            <p>© 2023 BY SPACE PROSPECTION | ALL RIGHTS RESERVED</p>
+        </div>
     </section>
-    
+
     <!--Scripts-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -155,4 +195,5 @@
     <script src="assets/js/index.js"></script>
 
 </body>
+
 </html>
