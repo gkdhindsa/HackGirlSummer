@@ -1,3 +1,2 @@
 # Space Science Website
-
-https://freewebsitetemplates.com/preview/space-science/index.html
+I have replicated a Space Science webite template (https://freewebsitetemplates.com/preview/space-science/index.html) in HTML, CSS and Bootstrap.
